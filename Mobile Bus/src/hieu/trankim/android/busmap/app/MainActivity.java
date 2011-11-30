@@ -1,5 +1,15 @@
-package com.greengar.hackathon.app;
+package hieu.trankim.android.busmap.app;
 
+import hieu.trankim.android.busmap.entity.LatLng;
+import hieu.trankim.android.busmap.entity.Route;
+import hieu.trankim.android.busmap.entity.RoutesAdapter;
+import hieu.trankim.android.busmap.map.ActivityMap;
+import hieu.trankim.android.busmap.network.RequestBackgroundWorker;
+import hieu.trankim.android.busmap.service.BusRoutesService;
+import hieu.trankim.android.busmap.service.BusRoutesService.CallbackRoutes;
+import hieu.trankim.android.busmap.view.BusStationAutocompleteTextView;
+import hieu.trankim.android.busmap.view.InfoBusRoute;
+import hieu.trankim.android.busmap.view.BusStationAutocompleteTextView.LatLngCallBach;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -13,16 +23,7 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.greengar.hackathon.app.entity.LatLng;
-import com.greengar.hackathon.app.entity.Route;
-import com.greengar.hackathon.app.entity.RoutesAdapter;
-import com.greengar.hackathon.app.network.RequestBackgroundWorker;
-import com.greengar.hackathon.app.service.BusRoutesService;
-import com.greengar.hackathon.app.service.BusRoutesService.CallbackRoutes;
-import com.greengar.hackathon.app.view.BusStationAutocompleteTextView;
-import com.greengar.hackathon.app.view.BusStationAutocompleteTextView.LatLngCallBach;
-import com.greengar.hackathon.app.view.InfoBusRoute;
-import com.greengar.hackathon.map.ActivityMap;
+import com.greengar.hackathon.app.R;
 
 public class MainActivity extends Activity {
 	BusStationAutocompleteTextView busSrc, busDes;

@@ -1,8 +1,9 @@
-package com.greengar.hackathon.app.service;
+package hieu.trankim.android.busmap.service;
+
+import hieu.trankim.android.busmap.entity.LatLng;
 
 import java.util.List;
 
-import com.greengar.hackathon.app.entity.LatLng;
 
 public interface Callback {
 	public void onSucess(List<String> busStationNames, List<LatLng> locations);

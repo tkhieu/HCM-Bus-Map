@@ -1,4 +1,4 @@
-package com.greengar.hackathon.app.view;
+package hieu.trankim.android.busmap.view;
 
 import android.content.Context;
 import android.util.AttributeSet;

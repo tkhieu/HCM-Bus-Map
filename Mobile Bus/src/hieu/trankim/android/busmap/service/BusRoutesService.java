@@ -1,16 +1,17 @@
-package com.greengar.hackathon.app.service;
+package hieu.trankim.android.busmap.service;
+
+import hieu.trankim.android.busmap.entity.LatLng;
+import hieu.trankim.android.busmap.entity.Route;
+import hieu.trankim.android.busmap.entity.Step;
+import hieu.trankim.android.busmap.network.ErrorData;
+import hieu.trankim.android.busmap.network.GetRequest;
+import hieu.trankim.android.busmap.network.RequestBackgroundWorker;
 
 import java.util.ArrayList;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import com.greengar.hackathon.app.entity.LatLng;
-import com.greengar.hackathon.app.entity.Route;
-import com.greengar.hackathon.app.entity.Step;
-import com.greengar.hackathon.app.network.ErrorData;
-import com.greengar.hackathon.app.network.GetRequest;
-import com.greengar.hackathon.app.network.RequestBackgroundWorker;
 
 public class BusRoutesService {
 	public interface CallbackRoutes{
@@ -82,7 +83,7 @@ public class BusRoutesService {
 			}
 		};
 		
-		request.url = String.format(com.greengar.hackathon.app.util.Config.URL_BUS_ROUTES, busDes.lat, busDes.lng, busSrc.lat, busSrc.lng);
+		request.url = String.format(hieu.trankim.android.busmap.util.Config.URL_BUS_ROUTES, busDes.lat, busDes.lng, busSrc.lat, busSrc.lng);
 		System.out.println("???? " + request.url);
 		RequestBackgroundWorker.queueRequest(request);
 	}

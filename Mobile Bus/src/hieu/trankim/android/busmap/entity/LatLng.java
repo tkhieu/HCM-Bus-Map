@@ -1,4 +1,4 @@
-package com.greengar.hackathon.app.entity;
+package hieu.trankim.android.busmap.entity;
 
 import java.io.Serializable;
 

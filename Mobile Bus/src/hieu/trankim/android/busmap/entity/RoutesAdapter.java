@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.greengar.hackathon.app.entity;
+package hieu.trankim.android.busmap.entity;
 
 import java.util.ArrayList;
 
@@ -82,9 +82,9 @@ public class RoutesAdapter extends BaseAdapter {
         		txt.setText("Xe buýt");
         		image.setBackgroundResource(R.drawable.bus);
         		txtWaitiing.setVisibility(View.VISIBLE);
-        		txtWaitiing.setText(step.getWaiting() + " chờ");        		
+        		txtWaitiing.setText(step.getWaiting() + " ch�?");        		
         		txtWaitiing1.setVisibility(View.VISIBLE);
-        		txtWaitiing1.setText("Đi xe");
+        		txtWaitiing1.setText("�?i xe");
         		txt1.setText(step.getTo());
         		String[] str = step.getNote().split("<br/>");
         		txt2.setVisibility(View.VISIBLE);
@@ -94,7 +94,7 @@ public class RoutesAdapter extends BaseAdapter {
         			txt3.setText(str[1]);
         		}
         	}else{
-        		txt.setText("Đi bộ");
+        		txt.setText("�?i bộ");
         		image.setBackgroundResource(R.drawable.people);
         		txt1.setText(String.format("%.2f km", step.getLen() / 1000));
         		txt2.setVisibility(View.VISIBLE);

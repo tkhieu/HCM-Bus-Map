@@ -1,4 +1,10 @@
-package com.greengar.hackathon.app.service;
+package hieu.trankim.android.busmap.service;
+
+import hieu.trankim.android.busmap.entity.LatLng;
+import hieu.trankim.android.busmap.network.ErrorData;
+import hieu.trankim.android.busmap.network.GetRequest;
+import hieu.trankim.android.busmap.network.RequestBackgroundWorker;
+import hieu.trankim.android.busmap.util.Config;
 
 import java.net.URLEncoder;
 import java.util.LinkedList;
@@ -7,11 +13,6 @@ import java.util.List;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import com.greengar.hackathon.app.entity.LatLng;
-import com.greengar.hackathon.app.network.ErrorData;
-import com.greengar.hackathon.app.network.GetRequest;
-import com.greengar.hackathon.app.network.RequestBackgroundWorker;
-import com.greengar.hackathon.app.util.Config;
 
 public class BusStationService {
 	

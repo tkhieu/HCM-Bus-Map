@@ -1,4 +1,4 @@
-package com.greengar.hackathon.app.util;
+package hieu.trankim.android.busmap.util;
 
 public class Config {
 	

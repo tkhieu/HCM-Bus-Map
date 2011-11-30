@@ -1,4 +1,6 @@
-package com.greengar.hackathon.app.network;
+package hieu.trankim.android.busmap.network;
+
+import hieu.trankim.android.busmap.util.Config;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -13,7 +15,6 @@ import org.apache.http.params.HttpParams;
 
 import android.util.Log;
 
-import com.greengar.hackathon.app.util.Config;
 
 
 public abstract class Request {

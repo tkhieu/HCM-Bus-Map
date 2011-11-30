@@ -12,7 +12,7 @@
     http://commonsware.com/AdvAndroid
  */
 
-package com.greengar.hackathon.map;
+package hieu.trankim.android.busmap.map;
 
 import android.R.bool;
 import android.content.Context;
@@ -38,9 +38,10 @@ import com.google.android.maps.MapView;
 import com.google.android.maps.MyLocationOverlay;
 import com.google.android.maps.OverlayItem;
 import com.greengar.hackathon.app.R;
-import com.greengar.hackathon.app.entity.LatLng;
-import com.greengar.hackathon.app.entity.Route;
-import com.greengar.hackathon.app.entity.Step;
+
+import hieu.trankim.android.busmap.entity.LatLng;
+import hieu.trankim.android.busmap.entity.Route;
+import hieu.trankim.android.busmap.entity.Step;
 
 import java.util.ArrayList;
 import java.util.List;

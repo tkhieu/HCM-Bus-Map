@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.greengar.hackathon.app"
+    package="hieu.trankim.android.busmap.app"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -24,7 +24,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.greengar.hackathon.map.ActivityMap"></activity>
+        <activity android:name="hieu.trankim.android.busmap.map.ActivityMap"></activity>
     </application>
 
 </manifest>
