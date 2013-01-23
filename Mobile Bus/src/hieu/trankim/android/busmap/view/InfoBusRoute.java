@@ -1,5 +1,6 @@
 package hieu.trankim.android.busmap.view;
 
+import hieu.trankim.android.busmap.app.R;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
@@ -7,7 +8,6 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.greengar.hackathon.app.R;
 
 public class InfoBusRoute extends LinearLayout {
 

@@ -1,5 +1,6 @@
 package hieu.trankim.android.busmap.view;
 
+import hieu.trankim.android.busmap.app.R;
 import hieu.trankim.android.busmap.entity.LatLng;
 import hieu.trankim.android.busmap.service.BusStationService;
 import hieu.trankim.android.busmap.service.Callback;
@@ -20,7 +21,7 @@ import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
-import com.greengar.hackathon.app.R;
+
 
 public class BusStationAutocompleteTextView extends RelativeLayout {
 

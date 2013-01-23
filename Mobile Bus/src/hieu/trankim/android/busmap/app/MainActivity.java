@@ -23,7 +23,6 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.greengar.hackathon.app.R;
 
 public class MainActivity extends Activity {
 	BusStationAutocompleteTextView busSrc, busDes;

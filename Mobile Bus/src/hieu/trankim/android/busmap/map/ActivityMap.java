@@ -37,8 +37,9 @@ import com.google.android.maps.MapController;
 import com.google.android.maps.MapView;
 import com.google.android.maps.MyLocationOverlay;
 import com.google.android.maps.OverlayItem;
-import com.greengar.hackathon.app.R;
 
+
+import hieu.trankim.android.busmap.app.R;
 import hieu.trankim.android.busmap.entity.LatLng;
 import hieu.trankim.android.busmap.entity.Route;
 import hieu.trankim.android.busmap.entity.Step;

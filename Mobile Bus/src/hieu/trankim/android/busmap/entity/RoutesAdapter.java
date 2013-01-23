@@ -3,6 +3,8 @@
  */
 package hieu.trankim.android.busmap.entity;
 
+import hieu.trankim.android.busmap.app.R;
+
 import java.util.ArrayList;
 
 import android.content.Context;
@@ -13,7 +15,6 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.greengar.hackathon.app.R;
 
 /**
  * @author DavidTroc
@@ -82,9 +83,9 @@ public class RoutesAdapter extends BaseAdapter {
         		txt.setText("Xe buÃ½t");
         		image.setBackgroundResource(R.drawable.bus);
         		txtWaitiing.setVisibility(View.VISIBLE);
-        		txtWaitiing.setText(step.getWaiting() + " chá»?");        		
+        		txtWaitiing.setText(step.getWaiting() + " chï¿½?");        		
         		txtWaitiing1.setVisibility(View.VISIBLE);
-        		txtWaitiing1.setText("Ä?i xe");
+        		txtWaitiing1.setText("ï¿½?i xe");
         		txt1.setText(step.getTo());
         		String[] str = step.getNote().split("<br/>");
         		txt2.setVisibility(View.VISIBLE);
@@ -94,7 +95,7 @@ public class RoutesAdapter extends BaseAdapter {
         			txt3.setText(str[1]);
         		}
         	}else{
-        		txt.setText("Ä?i bá»™");
+        		txt.setText("ï¿½?i bá»™");
         		image.setBackgroundResource(R.drawable.people);
         		txt1.setText(String.format("%.2f km", step.getLen() / 1000));
         		txt2.setVisibility(View.VISIBLE);

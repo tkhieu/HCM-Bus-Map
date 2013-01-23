@@ -32,12 +32,12 @@
             android:visibility="gone" />
     </RelativeLayout>
 
-    <com.greengar.hackathon.app.view.BusStationAutocompleteTextView
+    <hieu.trankim.android.busmap.view.BusStationAutocompleteTextView
         android:id="@+id/busSrc"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
 
-    <com.greengar.hackathon.app.view.BusStationAutocompleteTextView
+    <hieu.trankim.android.busmap.view.BusStationAutocompleteTextView
         android:id="@+id/busDes"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
@@ -56,7 +56,7 @@
         android:textStyle="bold" 
         android:gravity="center_vertical|center_horizontal"/>
 
-    <com.greengar.hackathon.app.view.InfoBusRoute
+    <hieu.trankim.android.busmap.view.InfoBusRoute
         android:id="@+id/infoBusRoute"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
